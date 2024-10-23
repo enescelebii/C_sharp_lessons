@@ -19,6 +19,7 @@ namespace Week_5_timer
             InitializeComponent();
         }
 
+        private int sayac = 0;
         private int saat = 0;
         private int dakika = 0;
         private int saniye = 0;
@@ -106,6 +107,13 @@ namespace Week_5_timer
         private void Form1_Load(object sender, EventArgs e)
         {
             timerSaat.Start();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            sayac++;
+            listBox1.Items.Add(sayac + ":" );
+            // listbox kaydetme
         }
     }
 }

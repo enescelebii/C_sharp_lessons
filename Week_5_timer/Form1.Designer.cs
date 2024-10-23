@@ -109,6 +109,7 @@
             this.button4.TabIndex = 20;
             this.toolTip1.SetToolTip(this.button4, "Kaydet");
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // ımageList1
             // 
