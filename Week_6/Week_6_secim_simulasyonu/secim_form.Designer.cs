@@ -73,9 +73,10 @@
             this.bunifuCircleProgress1.SuperScriptMargin = new System.Windows.Forms.Padding(0);
             this.bunifuCircleProgress1.SuperScriptText = "";
             this.bunifuCircleProgress1.TabIndex = 16;
-            this.bunifuCircleProgress1.Text = "0";
+            this.bunifuCircleProgress1.Text = "30";
             this.bunifuCircleProgress1.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.bunifuCircleProgress1.ValueByTransition = 0;
+            this.bunifuCircleProgress1.Value = 30;
+            this.bunifuCircleProgress1.ValueByTransition = 30;
             this.bunifuCircleProgress1.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             // 
             // bunifuCircleProgress2
@@ -108,9 +109,10 @@
             this.bunifuCircleProgress2.SuperScriptMargin = new System.Windows.Forms.Padding(0);
             this.bunifuCircleProgress2.SuperScriptText = "";
             this.bunifuCircleProgress2.TabIndex = 17;
-            this.bunifuCircleProgress2.Text = "0";
+            this.bunifuCircleProgress2.Text = "30";
             this.bunifuCircleProgress2.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.bunifuCircleProgress2.ValueByTransition = 0;
+            this.bunifuCircleProgress2.Value = 30;
+            this.bunifuCircleProgress2.ValueByTransition = 30;
             this.bunifuCircleProgress2.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             // 
             // bunifuCircleProgress3
@@ -143,9 +145,10 @@
             this.bunifuCircleProgress3.SuperScriptMargin = new System.Windows.Forms.Padding(0);
             this.bunifuCircleProgress3.SuperScriptText = "";
             this.bunifuCircleProgress3.TabIndex = 18;
-            this.bunifuCircleProgress3.Text = "0";
+            this.bunifuCircleProgress3.Text = "30";
             this.bunifuCircleProgress3.TextMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
-            this.bunifuCircleProgress3.ValueByTransition = 0;
+            this.bunifuCircleProgress3.Value = 30;
+            this.bunifuCircleProgress3.ValueByTransition = 30;
             this.bunifuCircleProgress3.ValueMargin = new System.Windows.Forms.Padding(0, 5, 0, 0);
             // 
             // bunifuButton21
@@ -286,6 +289,7 @@
             // 
             // timer1
             // 
+            this.timer1.Interval = 200;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // bunifuFormCaptionButton1
